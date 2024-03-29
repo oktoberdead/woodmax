@@ -1,0 +1,49 @@
+body{
+	background-image: url(pic/bg.jpg); 
+	background-repeat: repeat;
+	text-align: center;
+	font-family: "Georgia", serif;
+}
+
+#mainheader{
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+border: 2px red dotted;
+background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.5) 100%);
+}
+
+
+
+
+/*
+600 to 1200 px width
+*/
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+	#mainheader{
+		height: 15%;
+	}
+
+}
+
+/*
+200 to 600 px width
+*/
+@media screen and (min-width: 200px) and (max-width: 800px) {
+	#mainheader{
+		height: 15%;
+	}
+
+}
+
+/*
+1200 to inf px width
+*/
+@media screen and (min-width: 1200px) {
+	#mainheader{
+		height: 15%;
+	}
+
+}
