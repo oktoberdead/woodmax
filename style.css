@@ -1,3 +1,7 @@
+html{
+	font-size: 3vh;
+}
+
 body{
 	background-image: url(pic/bg.jpg); 
 	background-repeat: repeat;
@@ -5,23 +9,28 @@ body{
 	font-family: "Georgia", serif;
 }
 
+
+
 #mainheader{
-position: absolute;
-top: 0px;
-left: 0px;
-width: 100%;
-border: 2px red dotted;
-background: rgb(255,255,255);
-background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.5) 100%);
+	align-content: center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width:100%;
+	border: 2px red dotted;
+	background: rgb(255,255,255);
+	background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.5) 100%);
+
 }
 
 
 /*
 200 to 800 px width
 */
-@media screen and (min-width: 200px) and (max-width: 800px) {
+@media screen and (max-width: 800px) {
 	#mainheader{
-		height: 10%;
+		font-size: 2rem;
+		height: 30%;
 	}
 
 }
@@ -31,6 +40,7 @@ background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.5) 100%);
 */
 @media screen and (min-width: 800px) and (max-width: 1200px) {
 	#mainheader{
+		font-size: 2.5rem;
 		height: 15%;
 	}
 
@@ -43,6 +53,7 @@ background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.5) 100%);
 */
 @media screen and (min-width: 1200px) {
 	#mainheader{
+		font-size: 3.5rem;
 		height: 20%;
 	}
 
